@@ -1,5 +1,6 @@
 package com.company;
 
+
 /**
  * Created by shawn on 8/15/14.
  */
@@ -31,7 +32,7 @@ public class MarathonRunner implements Comparable<MarathonRunner> {
 
     @Override
     public String toString() {
-        return getName() + " ran the marathon in " + getTime() + " minutes.";
+        return getName() + " (" + getTime() + " min)";
 
     }
 }
